@@ -1,6 +1,4 @@
-//Author: Ash Summers
 //Date: Feb 20th, 2025
-//Description: Homework 3: Dungeon Crawler
 
 
 public class Main {
