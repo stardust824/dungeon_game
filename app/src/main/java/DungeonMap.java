@@ -20,8 +20,6 @@ public class DungeonMap {
         this.player = player;
         for(int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                //these aren't rooms. Not sure how to give them coordinate values
-                //could print room indexes. and consider those coordinates
                 this.rooms[i][j] = new Room();
             }
         }
@@ -55,7 +53,7 @@ public class DungeonMap {
                     System.out.print(" ");
                 }
             }
-            //print another side wall and a NEW LINE
+            //print another side wall and a newline
             System.out.println("|");
         }
         //print the bottom wall
